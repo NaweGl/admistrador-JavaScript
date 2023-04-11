@@ -1,0 +1,71 @@
+html {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(-200deg, rgb(71, 71, 71) 0%, rgb(71, 71, 71) 0%, rgb(76, 0, 130) 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+}
+
+.titulo {
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-weight: bold;
+  font-size: 3.7rem;
+  text-transform: uppercase;
+  color: white;
+}
+.container {
+    background-color: whitesmoke
+}
+header {
+  margin-top: 3rem;
+}
+header h1 {
+  color: white;
+}
+
+legend{
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(59, 59, 59);
+}
+
+h2{
+
+  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  font-size: 1.6rem;
+  color: rgb(59, 59, 59);
+  
+  
+}
+
+.lista-citas .cita {
+  border-bottom: 5px solid #e1e1e1;
+  padding: 2rem;
+  padding-bottom: 3rem;
+  
+}
+.lista-citas .cita:last-of-type {
+  border-bottom: 0;
+}
+
+.lista-citas .cita p {
+  margin:0;
+}
+.lista-citas .cita button {
+  margin-top: 1rem!important;
+}
+.lista-citas .cita span {
+  font-weight: bold;
+}
+textarea {
+    height: 200px!important;
+}
+
+svg {
+  width: 21px;
+}
